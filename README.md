@@ -31,27 +31,24 @@ This repository contains my work and assignments for the FlyRank AI Engineering 
 ### Setup
 
 1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/<your-username>/flyrank-frontend-ai.git
+  ```bash
+   git clone https://github.com/MyselfAddy/flyrank-frontend-ai.git
    cd flyrank-frontend-ai
-   ```
-
+  ```
 2. Install dependencies:
-
-   ```bash
+  ```bash
    npm install
-   ```
-
+  ```
 3. Start the development server:
-
-   ```bash
+  ```bash
    npm run dev
-   ```
-
+  ```
 4. Open the URL shown in the terminal (typically `http://localhost:5173`) in your browser.
 
+
+
 ### Available Scripts
+
 
 | Command           | Description                          |
 | ----------------- | ------------------------------------ |
@@ -59,6 +56,9 @@ This repository contains my work and assignments for the FlyRank AI Engineering 
 | `npm run build`   | Build the app for production         |
 | `npm run preview` | Preview the production build locally |
 | `npm run lint`    | Run ESLint                           |
+
+
+
 
 ## Author
 
