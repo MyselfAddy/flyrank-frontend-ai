@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
+import SettingsForm from './components/SettingsForm'
 import './App.css'
 
 function App() {
@@ -111,6 +112,17 @@ function App() {
             </li>
           </ul>
         </div>
+      </section>
+
+      <div className="ticks"></div>
+
+      <section id="settings" aria-labelledby="settings-heading">
+        <h2 id="settings-heading">Account Settings</h2>
+        <SettingsForm
+          onSubmit={(values) => {
+            console.log('Settings saved:', values)
+          }}
+        />
       </section>
 
       <div className="ticks"></div>
