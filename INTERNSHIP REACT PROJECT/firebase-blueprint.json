@@ -1,0 +1,24 @@
+{
+  "entities": {
+    "favourites": {
+      "title": "Favourites",
+      "description": "User favourite movies",
+      "type": "object",
+      "properties": {
+        "imdbID": { "type": "string" },
+        "Title": { "type": "string" },
+        "Year": { "type": "string" },
+        "Type": { "type": "string" },
+        "Poster": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["imdbID", "Title"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}/favourites/{imdbID}": {
+      "schema": "favourites",
+      "description": "User favourite movies subcollection"
+    }
+  }
+}

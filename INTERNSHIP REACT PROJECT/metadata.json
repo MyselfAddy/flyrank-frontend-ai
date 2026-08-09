@@ -1,0 +1,6 @@
+{
+  "name": "CineMatch",
+  "description": "Discover movies and series, view details, and save user-scoped favorites.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
