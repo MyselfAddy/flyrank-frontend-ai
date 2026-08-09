@@ -24,3 +24,11 @@ FlyRank Frontend AI Engineering Internship
 - Explain code before major changes.
 - Suggest performance improvements.
 - Suggest accessibility improvements.
+
+
+
+## FE-03 Project Rules
+
+1. Build React components using TypeScript with reusable and modular architecture.
+2. Every form field must have an associated label and basic accessibility support.
+3. Run `npm run lint` and `npm run build` before committing any feature implementation.

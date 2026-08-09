@@ -1,65 +1,62 @@
-# FlyRank Frontend AI Engineering
+# FlyRank Frontend AI Engineering Internship
 
-This repository contains my work and assignments for the FlyRank AI Engineering Frontend Internship.
+This repository contains my assignments and projects completed during the FlyRank Frontend AI Engineering Internship.
 
-## Objectives
+---
 
-- Learn AI-assisted frontend development
-- Build modern web applications
-- Follow clean coding practices
-- Maintain professional Git workflows
+## Assignment Progress
+
+| Assignment | Status |
+| --- | --- |
+| FE-01 – Environment & AI Toolchain | ✅ Completed |
+| FE-03 – AI-Assisted Workflow Drill | ✅ Completed |
+| Internship React Project | ✅ Completed |
+
+---
+
+## Repository Structure
+
+```text
+flyrank-frontend-ai/
+│
+├── README.md
+├── LICENSE
+├── CLAUDE.md
+├── .gitignore
+│
+├── FE-01-Environment-AI-Toolchain/
+│   ├── README.md
+│   └── submission.md
+│
+├── FE-03-AI-Workflow-Drill/
+│   └── WORKFLOW.md
+│
+└── INTERNSHIP REACT PROJECT/
+    ├── src/
+    ├── assets/
+    ├── package.json
+    ├── README.md
+    └── ...
+
+---
 
 ## Tech Stack
 
-- HTML
-- CSS
-- JavaScript
-- TypeScript
-- React
-- Vite
-- Git & GitHub
-- Cursor AI / Claude Code
+Current:
 
-## Getting Started
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) 18 or later
-- npm (included with Node.js)
 - Git
+- GitHub
+- Cursor AI
+- Node.js
 
-### Setup
+Future assignments will include:
 
-1. Clone the repository:
-  ```bash
-   git clone https://github.com/MyselfAddy/flyrank-frontend-ai.git
-   cd flyrank-frontend-ai
-  ```
-2. Install dependencies:
-  ```bash
-   npm install
-  ```
-3. Start the development server:
-  ```bash
-   npm run dev
-  ```
-4. Open the URL shown in the terminal (typically `http://localhost:5173`) in your browser.
+- React
+- TypeScript
+- Vite
 
-
-
-### Available Scripts
-
-
-| Command           | Description                          |
-| ----------------- | ------------------------------------ |
-| `npm run dev`     | Start the Vite development server    |
-| `npm run build`   | Build the app for production         |
-| `npm run preview` | Preview the production build locally |
-| `npm run lint`    | Run ESLint                           |
-
-
-
+---
 
 ## Author
 
-Aditya Senapati R
+**Aditya Senapati R**
