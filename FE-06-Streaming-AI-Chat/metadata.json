@@ -1,0 +1,6 @@
+{
+  "name": "Streaming AI Chat",
+  "description": "FE-06 Capstone Streaming AI Chat application powered by Google Gemini and Vercel AI SDK",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
