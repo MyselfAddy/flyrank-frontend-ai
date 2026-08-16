@@ -1,0 +1,7 @@
+{
+  "name": "FE-09 Streaming AI Chat",
+  "description": "Production-grade streaming AI chat with tool calling, website audit analysis, comprehensive error states, rate limit handling, and resilient recovery powered by Google Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
