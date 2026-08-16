@@ -1,0 +1,45 @@
+name: FE-09 Testing Pass
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+defaults:
+  run:
+    working-directory: streaming-ai-chat(9)
+
+jobs:
+  test:
+    name: Test & Validate FE-09
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: streaming-ai-chat(9)/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Lint
+        run: npm run lint
+
+      - name: Run Vitest
+        run: npm test
+
+      - name: Install Playwright
+        run: npx playwright install --with-deps chromium
+
+      - name: Run Playwright E2E
+        run: npm run test:e2e
+
+      - name: Build Application
+        run: npm run build
