@@ -1,0 +1,7 @@
+{
+  "name": "Buttons with a Brain: Motion & State Micro-interactions",
+  "description": "Production-grade accessible AI Send button with state machine micro-interactions (idle, loading, success, error, retry, disabled), compositor-optimized Motion animations, and reduced-motion support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
