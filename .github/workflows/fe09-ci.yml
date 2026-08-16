@@ -2,18 +2,22 @@ name: FE-09 Testing Pass
 
 on:
   push:
-    branches: [main, master]
+    branches:
+      - main
+      - master
   pull_request:
-    branches: [main, master]
-
-defaults:
-  run:
-    working-directory: streaming-ai-chat(9)
+    branches:
+      - main
+      - master
 
 jobs:
   test:
     name: Test & Validate FE-09
     runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: "streaming-ai-chat(9)"
 
     steps:
       - name: Checkout repository
@@ -22,9 +26,9 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-  		node-version: 24
-  		cache: npm
-  		cache-dependency-path: streaming-ai-chat(9)/package-lock.json
+          node-version: 24
+          cache: npm
+          cache-dependency-path: "streaming-ai-chat(9)/package-lock.json"
 
       - name: Install dependencies
         run: npm ci
